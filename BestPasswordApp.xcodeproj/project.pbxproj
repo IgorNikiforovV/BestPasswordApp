@@ -12,6 +12,8 @@
 		AC63D6E62ADCFAB30018F224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63D6E52ADCFAB30018F224 /* ViewController.swift */; };
 		AC63D6EB2ADCFAB40018F224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC63D6EA2ADCFAB40018F224 /* Assets.xcassets */; };
 		AC63D6EE2ADCFAB40018F224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC63D6EC2ADCFAB40018F224 /* LaunchScreen.storyboard */; };
+		AC63D6F92ADFA69E0018F224 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63D6F82ADFA69E0018F224 /* PasswordTextField.swift */; };
+		AC63D6FC2ADFADE00018F224 /* Extension+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63D6FB2ADFADE00018F224 /* Extension+UITextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AC63D6EA2ADCFAB40018F224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC63D6ED2ADCFAB40018F224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC63D6EF2ADCFAB40018F224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC63D6F82ADFA69E0018F224 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		AC63D6FB2ADFADE00018F224 /* Extension+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UITextField.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		AC63D6E02ADCFAB30018F224 /* BestPasswordApp */ = {
 			isa = PBXGroup;
 			children = (
+				AC63D6FA2ADFADBB0018F224 /* Utils */,
 				AC63D6F52ADD014C0018F224 /* Application */,
 				AC63D6F62ADD01680018F224 /* Resources */,
+				AC63D6F72ADFA66F0018F224 /* Components */,
 				AC63D6E52ADCFAB30018F224 /* ViewController.swift */,
 			);
 			path = BestPasswordApp;
@@ -78,6 +84,22 @@
 				AC63D6EF2ADCFAB40018F224 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC63D6F72ADFA66F0018F224 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC63D6F82ADFA69E0018F224 /* PasswordTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AC63D6FA2ADFADBB0018F224 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AC63D6FB2ADFADE00018F224 /* Extension+UITextField.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +175,8 @@
 				AC63D6E62ADCFAB30018F224 /* ViewController.swift in Sources */,
 				AC63D6E22ADCFAB30018F224 /* AppDelegate.swift in Sources */,
 				AC63D6E42ADCFAB30018F224 /* SceneDelegate.swift in Sources */,
+				AC63D6FC2ADFADE00018F224 /* Extension+UITextField.swift in Sources */,
+				AC63D6F92ADFA69E0018F224 /* PasswordTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
