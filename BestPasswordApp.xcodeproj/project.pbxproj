@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC2CD4792AE3E41500C184CF /* PasswordCriteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2CD4782AE3E41400C184CF /* PasswordCriteriaView.swift */; };
 		AC63D6E22ADCFAB30018F224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63D6E12ADCFAB30018F224 /* AppDelegate.swift */; };
 		AC63D6E42ADCFAB30018F224 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63D6E32ADCFAB30018F224 /* SceneDelegate.swift */; };
 		AC63D6E62ADCFAB30018F224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC63D6E52ADCFAB30018F224 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC2CD4782AE3E41400C184CF /* PasswordCriteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaView.swift; sourceTree = "<group>"; };
 		AC63D6DE2ADCFAB30018F224 /* BestPasswordApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestPasswordApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC63D6E12ADCFAB30018F224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC63D6E32ADCFAB30018F224 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				AC63D6F82ADFA69E0018F224 /* PasswordTextField.swift */,
+				AC2CD4782AE3E41400C184CF /* PasswordCriteriaView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			files = (
 				AC63D6E62ADCFAB30018F224 /* ViewController.swift in Sources */,
 				AC63D6E22ADCFAB30018F224 /* AppDelegate.swift in Sources */,
+				AC2CD4792AE3E41500C184CF /* PasswordCriteriaView.swift in Sources */,
 				AC63D6E42ADCFAB30018F224 /* SceneDelegate.swift in Sources */,
 				AC63D6FC2ADFADE00018F224 /* Extension+UITextField.swift in Sources */,
 				AC63D6F92ADFA69E0018F224 /* PasswordTextField.swift in Sources */,
